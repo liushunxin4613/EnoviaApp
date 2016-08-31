@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <type>
+        <item>
+            <id>12</id>
+            <str>失误</str>
+            <key>key</key>
+        </item>
+        <item>
+            <id>13</id>
+            <str>失误鼠</str>
+            <key>keyw</key>
+        </item>
+    </type>
+    <type>
+        <item>
+            <id>14</id>
+            <str>广东省</str>
+            <key>sdvd</key>
+        </item>
+        <item>
+            <id>13</id>
+            <str>防盗门</str>
+            <key>sdb</key>
+        </item>
+    </type>
+</root>

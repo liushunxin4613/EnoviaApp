@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_item_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                style="@style/activity_login_linear_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_kuang"
+                android:orientation="vertical" >
+
+                <!-- 名称 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_0"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 描述 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_1"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 状态 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_2"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 受托人 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_3"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 问题来源 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_4"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 相关机型 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_5"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 相关项目 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_6"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 要求完成日期 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_7"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 实际开始日期 -->
+
+
+                
+                <include
+                    android:id="@+id/fm_include_tv_issue_8"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 实际结束日期 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_9"
+                    layout="@layout/include_tv_two" />
+
+                <!-- 所有者 -->
+
+                <include
+                    android:id="@+id/fm_include_tv_issue_10"
+                    layout="@layout/include_tv_two" />
+                
+                <include
+                    android:id="@+id/fm_include_tv_issue_11"
+                    layout="@layout/include_tv_two" />
+                
+                <include
+                    android:id="@+id/fm_include_tv_issue_12"
+                    layout="@layout/include_tv_two" />
+               
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/activity_login_linear_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_kuang"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:text="@string/file_name" />
+
+                <View
+                    style="@style/item_line_edit_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px" />
+
+                <TextView
+                    android:id="@+id/fm_include_no_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:text="@string/file_name_null" />
+
+                <com.topgun.customLib.ScListview
+                    android:id="@+id/fm_include_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/detail_bottom"
+        android:gravity="end"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvb_issue_detail_editor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_selector"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_edit_btn"
+            android:drawablePadding="@dimen/container_padding_small"
+            android:drawableStart="@drawable/ic_edit_btn"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:padding="@dimen/container_padding_small"
+            android:text="@string/issue_detail_editor" />
+
+        <TextView
+            android:id="@+id/tvb_issue_detail_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_selector"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_check"
+            android:drawablePadding="@dimen/container_padding_small"
+            android:drawableStart="@drawable/ic_check"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:padding="@dimen/container_padding_small"
+            android:text="@string/issue_detail_handle" />
+    </LinearLayout>
+
+</LinearLayout>

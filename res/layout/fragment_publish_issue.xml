@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:ignore="ScrollViewCount" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 提交问题模块 -->
+
+        <LinearLayout
+            style="@style/activity_login_linear_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_kuang"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/fm_include_publish_issue_0"
+                layout="@layout/include_publish_edit" />
+
+            <include layout="@layout/include_view" />
+
+            <include
+                android:id="@+id/fm_include_publish_issue_sp_0"
+                layout="@layout/include_spinner_tv" />
+
+            <include layout="@layout/include_view" />
+
+            <include
+                android:id="@+id/fm_include_publish_tv_start_date"
+                layout="@layout/include_publish_textview" />
+            
+            <include layout="@layout/include_view" />
+
+            <include
+                android:id="@+id/fm_include_publish_tv"
+                layout="@layout/include_publish_textview" />
+            
+			<include layout="@layout/include_view" />
+			
+            <include
+                android:id="@+id/fm_include_publish_issue_1"
+                layout="@layout/include_publish_edit" />
+
+           <!--  <include layout="@layout/include_view" />
+
+            <include
+                android:id="@+id/fm_include_publish_issue_sp_1"
+                layout="@layout/include_spinner_tv" /> -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/activity_login_linear_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_kuang"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/fm_include_publish_issue_2"
+                layout="@layout/include_publish_edit" />
+
+            <include layout="@layout/include_view" />
+
+            <include
+                android:id="@+id/fm_include_publish_issue_sp_2"
+                layout="@layout/include_spinner_tv" />
+
+            <include layout="@layout/include_view" />
+
+            <include
+                android:id="@+id/fm_include_publish_issue_3"
+                layout="@layout/include_publish_edit" />
+        </LinearLayout>
+        
+        <!-- 文件模块 -->
+
+        <LinearLayout
+            style="@style/activity_login_linear_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_kuang"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+            <include
+                android:id="@+id/fm_include_publish_next_lv"
+                layout="@layout/include_next_listview" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Bt_fm_publish_issue"
+            style="@style/mid_white_textstyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/container_padding_large"
+            android:background="@drawable/button_blue_selector"
+            android:text="@string/publish_issue_submit" />
+    </LinearLayout>
+
+</ScrollView>

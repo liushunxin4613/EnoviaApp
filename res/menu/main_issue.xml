@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+    
+    <item
+        android:id="@+id/action_menu_issue"
+        android:icon="@drawable/ic_menu_issue1"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_title">
+        <menu>
+            <item
+                android:id="@+id/action_0"
+                android:orderInCategory="100"
+                android:title="@string/issue_ownerAndAssignToMe"/>
+            <item
+                android:id="@+id/action_1"
+                android:orderInCategory="101"
+                android:title="@string/issue_ownerAndAllAssigned"/>
+            <item
+                android:id="@+id/action_2"
+                android:orderInCategory="102"
+                android:title="@string/issue_ownerAndReview"/>
+            <item
+                android:id="@+id/action_3"
+                android:orderInCategory="103"
+                android:title="@string/issue_ownerAndActive"/>
+            <item
+                android:id="@+id/action_4"
+                android:orderInCategory="104"
+                android:title="@string/issue_ownerAndCreate"/>
+            <item
+                android:id="@+id/action_5"
+                android:orderInCategory="105"
+                android:title="@string/issue_owner"/>
+            <item
+                android:id="@+id/action_6"
+                android:orderInCategory="106"
+                android:title="@string/issue_ownerAndWatchActive"/>
+        </menu>
+    </item>
+
+</menu>

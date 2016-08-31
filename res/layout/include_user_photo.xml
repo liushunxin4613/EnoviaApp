@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_20"
+    android:background="@color/base_blue_light"
+    android:gravity="center"
+    android:padding="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/Re_me_info_imge"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/default_user"
+        android:contentDescription="@string/image_string" >
+
+        <ImageButton
+            android:id="@+id/ib_include_user_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_user_selector"
+            android:contentDescription="@string/image_string" />
+    </RelativeLayout>
+
+</LinearLayout>

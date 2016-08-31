@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:ignore="ScrollViewCount" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/activity_login_linear_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_kuang"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+            <include android:id="@+id/fg_ic_review_issue_tv0" layout="@layout/include_tv_two"/>
+
+            <include layout="@layout/include_view" />
+
+            <include android:id="@+id/fg_ic_review_issue_tv1"  layout="@layout/include_tv_two"/>
+
+            <include layout="@layout/include_view" />
+
+            <include android:id="@+id/fg_ic_review_issue_et0" layout="@layout/include_publish_edit"/>
+
+            <include layout="@layout/include_view" />
+
+            <include android:id="@+id/fg_ic_review_issue_sp0" layout="@layout/include_spinner_tv"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_fm_review_issue"
+            style="@style/mid_white_textstyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/container_padding_large"
+            android:background="@drawable/button_blue_selector"
+            android:text="@string/issue_review_submit" />
+    </LinearLayout>
+
+</ScrollView>

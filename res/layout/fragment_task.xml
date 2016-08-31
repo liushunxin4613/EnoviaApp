@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fm_task_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:gravity="center_horizontal"
+        android:text="@string/app_data_null_data"
+        android:visibility="gone" />
+
+    <com.topgun.customLib.DynamicListView
+        android:id="@+id/task_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.topgun.customLib.DynamicListView>
+
+</LinearLayout>

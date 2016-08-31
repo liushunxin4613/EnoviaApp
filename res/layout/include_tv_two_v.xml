@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/fm_include_user_info_e"
+        layout="@layout/include_tv_two" />
+
+    <include
+        android:id="@+id/fm_view1"
+        layout="@layout/include_view" />
+</LinearLayout>

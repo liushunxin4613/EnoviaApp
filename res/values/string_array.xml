@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="issue_key_tissue">
+        <item></item>
+        <item>TGI</item>
+    </string-array>
+    
+    <string-array name="issue_key_hs_priority">
+        <item></item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    
+    <string-array name="issue_value_hs_priority">
+        <item></item>
+        <item>H</item>
+        <item>M</item>
+        <item>L</item>
+    </string-array>
+
+    <string-array name="issue_value_action">
+        <item></item>
+        <item>demote</item>
+        <item>promote</item>
+    </string-array>
+    
+    <string-array name="issue">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+
+</resources>

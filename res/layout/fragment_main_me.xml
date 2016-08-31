@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include android:id="@+id/fm_include_main_me_photo" layout="@layout/include_image_list"/>
+    <include android:id="@+id/fm_include_main_me_ti1" layout="@layout/include_h_tv_im"/>
+	<include layout="@layout/include_view"/>    
+    <include android:id="@+id/fm_include_main_me_ti2" layout="@layout/include_h_tv_im"/>
+	<include layout="@layout/include_view"/>
+    
+</LinearLayout>
